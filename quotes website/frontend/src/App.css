@@ -1,0 +1,81 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 160px;
+    background: #625ac4;
+    max-width: 600px;
+    height: 420px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+
+}
+
+.quotes{
+    padding: 15px ;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    height: 20px;
+}
+
+.line{
+    width: 550px;
+    height: 1px;
+    background: white;
+
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.author{
+    color: white;
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search{
+    width: 450px;
+    border-radius: 35px;
+    border: 2px solid black;
+    background-color : white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 10x;
+}
+
+.search-1 {
+    width:350px;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color : white;
+    border: none;
+}
+
+.icons-1{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 50px
+}
